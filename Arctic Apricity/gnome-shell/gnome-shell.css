@@ -493,10 +493,13 @@ StScrollBar StButton#hhandle:active {
     box-shadow: inset 0,0,6px,#AAA; }
 .popup-menu .popup-menu-content {
     padding: 1em 0em; 
-    background-gradient-start: #fafafa;
+    /*background-gradient-start: #fafafa;
     background-gradient-end: #efefef;
-    background-gradient-direction: vertical;
-    border-color:transparent;}
+    background-gradient-direction: vertical;*/
+    background-color: #fafafa;
+    border-color: transparent;
+    border-width: 2px;
+    border-radius: 4px;}
 .popup-menu .popup-menu-item {
     spacing: 12px;
     color:#666666;
@@ -543,12 +546,12 @@ StScrollBar StButton#hhandle:active {
 
 .popup-menu-boxpointer,
 .candidate-popup-boxpointer {
-    -arrow-border-radius: 4px;
+    -arrow-border-radius: 5px;
     -arrow-background-color: #fafafa;
     -arrow-border-width: 2px;
-    -arrow-border-color: transparent;
-    /*-arrow-base: 24px;
-    -arrow-rise: 11px;*/
+    -arrow-border-color: #fafafa;
+    -arrow-base: 24px;
+    -arrow-rise: 11px;
 }
 
 .popup-menu-boxpointer.fallback-app-menu {
